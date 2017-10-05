@@ -7,7 +7,7 @@ RUN Rscript -e "source('http://bioconductor.org/biocLite.R'); biocLite('PSCBS', 
 
 RUN apt-get install -y \
     liblzma-dev \
-    libnss-sss \  
+    libnss-sss \
     python-biopython \
     python-dev \
     python-matplotlib \
